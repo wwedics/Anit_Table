@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block anmtn %}
+
+    <form>
+        <div id="unicycle1" class="unicycle">
+            <input type="range" class="unicycle__wheel" name="unicycle" min="0" max="100" value="0">
+            <div class="unicycle__marker">
+                <div class="unicycle__rider-head"></div>
+                <div class="unicycle__rider-body">
+                    <div class="unicycle__left-arm">
+                        <div class="unicycle__left-lower-arm"></div>
+                    </div>
+                    <div class="unicycle__right-arm">
+                        <div class="unicycle__right-lower-arm">
+                            <div class="unicycle__flag-pole">
+                                <div class="unicycle__flag">0</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="unicycle__left-leg">
+                        <div class="unicycle__left-lower-leg"></div>
+                    </div>
+                    <div class="unicycle__right-leg">
+                        <div class="unicycle__right-lower-leg"></div>
+                    </div>
+                </div>
+                <div class="unicycle__seat"></div>
+                <div class="unicycle__bar"></div>
+                <div class="unicycle__pedal-arms">
+                    <div class="unicycle__pedal"></div>
+                    <div class="unicycle__pedal"></div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+
+{% endblock anmtn %}

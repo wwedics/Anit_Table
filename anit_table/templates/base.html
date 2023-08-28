@@ -1,0 +1,30 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Projects</title>
+
+        <!-- CSS FILES -->       
+        <link href="{% static 'css/anmtn.css' %}" rel="stylesheet">
+
+        <link href="{% static 'css/templatemo-barber-shop.css' %}" rel="stylesheet">
+
+        <link href="{% static 'css/analem.css' %}" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        {% block anmtn %}{% endblock anmtn %}
+        {% block analem %}{% endblock analem %}
+
+
+        <script src="{% static 'js/anmtn.js' %}"></script>
+    <body/>
+
+</html>
